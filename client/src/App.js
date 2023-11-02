@@ -2,7 +2,7 @@ import {useState,useEffect} from 'react'
 import './App.css';
 
 function App() {
-  const [msg,setMsg] = useState('')
+  const [msg,setMsg] = useState('hi')
 
   useEffect(()=>{
     fetch("http://localhost:4000")
